@@ -1,0 +1,17 @@
+C:\Users\dartw\RiderProjects\Otus_Reflection\Otus_Reflection\bin\Debug\net8.0\Otus_Reflection.exe
+C:\Users\dartw\RiderProjects\Otus_Reflection\Otus_Reflection\bin\Debug\net8.0\Otus_Reflection.deps.json
+C:\Users\dartw\RiderProjects\Otus_Reflection\Otus_Reflection\bin\Debug\net8.0\Otus_Reflection.runtimeconfig.json
+C:\Users\dartw\RiderProjects\Otus_Reflection\Otus_Reflection\bin\Debug\net8.0\Otus_Reflection.dll
+C:\Users\dartw\RiderProjects\Otus_Reflection\Otus_Reflection\bin\Debug\net8.0\Otus_Reflection.pdb
+C:\Users\dartw\RiderProjects\Otus_Reflection\Otus_Reflection\obj\Debug\net8.0\Otus_Reflection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dartw\RiderProjects\Otus_Reflection\Otus_Reflection\obj\Debug\net8.0\Otus_Reflection.AssemblyInfoInputs.cache
+C:\Users\dartw\RiderProjects\Otus_Reflection\Otus_Reflection\obj\Debug\net8.0\Otus_Reflection.AssemblyInfo.cs
+C:\Users\dartw\RiderProjects\Otus_Reflection\Otus_Reflection\obj\Debug\net8.0\Otus_Reflection.csproj.CoreCompileInputs.cache
+C:\Users\dartw\RiderProjects\Otus_Reflection\Otus_Reflection\obj\Debug\net8.0\Otus_Reflection.dll
+C:\Users\dartw\RiderProjects\Otus_Reflection\Otus_Reflection\obj\Debug\net8.0\refint\Otus_Reflection.dll
+C:\Users\dartw\RiderProjects\Otus_Reflection\Otus_Reflection\obj\Debug\net8.0\Otus_Reflection.pdb
+C:\Users\dartw\RiderProjects\Otus_Reflection\Otus_Reflection\obj\Debug\net8.0\Otus_Reflection.genruntimeconfig.cache
+C:\Users\dartw\RiderProjects\Otus_Reflection\Otus_Reflection\obj\Debug\net8.0\ref\Otus_Reflection.dll
+C:\Users\dartw\RiderProjects\Otus_Reflection\Otus_Reflection\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\dartw\RiderProjects\Otus_Reflection\Otus_Reflection\obj\Debug\net8.0\Otus_Reflection.csproj.AssemblyReference.cache
+C:\Users\dartw\RiderProjects\Otus_Reflection\Otus_Reflection\obj\Debug\net8.0\Otus_Ref.8C317196.Up2Date
