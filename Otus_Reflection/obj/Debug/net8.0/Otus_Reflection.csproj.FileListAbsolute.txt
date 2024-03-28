@@ -15,3 +15,4 @@ C:\Users\dartw\RiderProjects\Otus_Reflection\Otus_Reflection\obj\Debug\net8.0\re
 C:\Users\dartw\RiderProjects\Otus_Reflection\Otus_Reflection\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\dartw\RiderProjects\Otus_Reflection\Otus_Reflection\obj\Debug\net8.0\Otus_Reflection.csproj.AssemblyReference.cache
 C:\Users\dartw\RiderProjects\Otus_Reflection\Otus_Reflection\obj\Debug\net8.0\Otus_Ref.8C317196.Up2Date
+C:\Users\dartw\RiderProjects\Otus_Reflection\Otus_Reflection\obj\Debug\net8.0\Otus_Reflection.sourcelink.json

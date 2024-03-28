@@ -1,25 +1,33 @@
-﻿namespace Otus_Reflection;
-
-class CsvDeserializer
+﻿namespace Otus_Reflection
 {
-    public T Deserialize<T>(string? csvData) where T : new()
+    class CsvDeserializer
     {
-        var obj = new T();
-        var lines = csvData.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries);
-        var properties = typeof(T).GetProperties();
-
-        foreach (var line in lines)
+        public T Deserialize<T>(string? csvData) where T : new()
         {
-            var values = line.Split(',');
-
-            for (int i = 0; i < Math.Min(properties.Length, values.Length); i++)
+            var obj = new T();
+            var lines = csvData?.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries);
+            
+            if (lines != null && lines.Length == 2)
             {
-                var property = properties[i];
-                var value = Convert.ChangeType(values[i], property.PropertyType);
-                property.SetValue(obj, value);
-            }
-        }
+                var fieldNames = lines[0].Split(',');
+                var fieldValues = lines[1].Split(',');
 
-        return obj;
+                var fields = typeof(T).GetFields();
+                for (int i = 0; i < Math.Min(fieldNames.Length, fieldValues.Length); i++)
+                {
+                    var fieldName = fieldNames[i].Trim();
+                    var fieldValue = fieldValues[i].Trim();
+
+                    var field = fields.FirstOrDefault(f => f.Name == fieldName);
+                    if (field != null)
+                    {
+                        var value = Convert.ChangeType(fieldValue, field.FieldType);
+                        field.SetValue(obj, value);
+                    }
+                }
+            }
+
+            return obj;
+        }
     }
 }
